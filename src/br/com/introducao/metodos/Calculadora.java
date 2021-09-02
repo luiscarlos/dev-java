@@ -10,4 +10,14 @@ public class Calculadora {
 		
 		
 	}
+	
+	
+	public void alteraDoiNumertos(int numero1, int numero2) {
+		numero1 = 30;
+		numero2 = 40;
+		
+		System.out.println("Dentro do altera dois numeros ");
+		System.out.println("Numero: " + numero1);
+		System.out.println("Numero: " + numero2);
+	}
 }
