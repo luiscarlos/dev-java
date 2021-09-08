@@ -15,7 +15,10 @@ public class CalculadoraTeste {
 		System.out.println("Dentro do teste");
 		System.out.println("Numero1: " + numero1);
 		System.out.println("Numero2: " + numero2);
-
+		
+		int[] numero = new int[] {1,2,3,4,5};
+		calculadora.somarArray(numero);
+		calculadora.somaVarArgs(numero);
 	}
 
 }

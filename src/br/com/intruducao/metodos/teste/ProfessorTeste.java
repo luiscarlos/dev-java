@@ -17,10 +17,18 @@ public class ProfessorTeste {
 		professor1.cpf = "222.222.222-99";
 		
 		
-		professor.imprimirProfesso(professor);
+		System.out.println("Dentro do metodo teste");
+		System.out.println(professor.nome);
 		
 		System.out.println("-----------------");
-		professor1.imprimirProfesso(professor1);
+		
+		professor.imprimirProfesso();
+		System.out.println(professor.nome);
+		
+		System.out.println("-----------------");
+		professor1.imprimirProfesso();
+		System.out.println(professor.nome);
+		
 		
 	}
 }

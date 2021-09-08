@@ -7,10 +7,13 @@ public class Professor {
 	public String cpf;
 	
 	
-	public void imprimirProfesso(Professor prof) {
-		System.out.println("Nome: " + prof.nome);
-		System.out.println("Matricula: " + prof.matricula);
-		System.out.println("RG: " + prof.rg);
-		System.out.println("CPF: " + prof.cpf);
+	public void imprimirProfesso() {
+		System.out.println("Nome: " + this.nome);
+		System.out.println("Matricula: " + this.matricula);
+		System.out.println("RG:" + this.rg);
+		System.out.println("CPF: " + this.cpf);
+		
+		this.nome = "Nome alterado dentro do imprimi";
+		System.out.println(this.nome);
 	}
 }
